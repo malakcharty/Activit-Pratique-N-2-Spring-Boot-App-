@@ -1,5 +1,4 @@
 package ma.emsi.studentsapp.entities;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,6 +15,4 @@ public class Product {
     public String name;
     private double price;
     private int quantity;
-
-
 }
